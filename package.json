@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/jundat95/switch-react-native#readme",
   "peerDependencies": {
-    "react-native": ">=0.51"
+    "react-native": ">=0.29"
   }
 }

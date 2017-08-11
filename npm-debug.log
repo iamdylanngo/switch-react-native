@@ -13,22 +13,22 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/Users/tinhngo/Desktop/switch-react-native',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /Users/tinhngo/.npm/switch-react-native/1.0.0/package.tgz not in flight; packing
+8 verbose addLocalDirectory /Users/tinhngo/.npm/switch-react-native/1.0.1/package.tgz not in flight; packing
 9 verbose correctMkdir /Users/tinhngo/.npm correctMkdir not in flight; initializing
-10 info lifecycle switch-react-native@1.0.0~prepublish: switch-react-native@1.0.0
-11 silly lifecycle switch-react-native@1.0.0~prepublish: no script for prepublish, continuing
-12 verbose tar pack [ '/Users/tinhngo/.npm/switch-react-native/1.0.0/package.tgz',
+10 info lifecycle switch-react-native@1.0.1~prepublish: switch-react-native@1.0.1
+11 silly lifecycle switch-react-native@1.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/tinhngo/.npm/switch-react-native/1.0.1/package.tgz',
 12 verbose tar pack   '/Users/tinhngo/Desktop/switch-react-native' ]
-13 verbose tarball /Users/tinhngo/.npm/switch-react-native/1.0.0/package.tgz
+13 verbose tarball /Users/tinhngo/.npm/switch-react-native/1.0.1/package.tgz
 14 verbose folder /Users/tinhngo/Desktop/switch-react-native
-15 verbose addLocalTarball adding from inside cache /Users/tinhngo/.npm/switch-react-native/1.0.0/package.tgz
+15 verbose addLocalTarball adding from inside cache /Users/tinhngo/.npm/switch-react-native/1.0.1/package.tgz
 16 verbose correctMkdir /Users/tinhngo/.npm correctMkdir not in flight; initializing
-17 silly cache afterAdd switch-react-native@1.0.0
-18 verbose afterAdd /Users/tinhngo/.npm/switch-react-native/1.0.0/package/package.json not in flight; writing
+17 silly cache afterAdd switch-react-native@1.0.1
+18 verbose afterAdd /Users/tinhngo/.npm/switch-react-native/1.0.1/package/package.json not in flight; writing
 19 verbose correctMkdir /Users/tinhngo/.npm correctMkdir not in flight; initializing
-20 verbose afterAdd /Users/tinhngo/.npm/switch-react-native/1.0.0/package/package.json written
+20 verbose afterAdd /Users/tinhngo/.npm/switch-react-native/1.0.1/package/package.json written
 21 silly publish { name: 'switch-react-native',
-21 silly publish   version: '1.0.0',
+21 silly publish   version: '1.0.1',
 21 silly publish   description: 'Switch in react native',
 21 silly publish   main: 'index.js',
 21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
@@ -53,12 +53,12 @@
 21 silly publish   license: 'MIT',
 21 silly publish   bugs: { url: 'https://github.com/jundat95/switch-react-native/issues' },
 21 silly publish   homepage: 'https://github.com/jundat95/switch-react-native#readme',
-21 silly publish   peerDependencies: { 'react-native': '>=0.51' },
+21 silly publish   peerDependencies: { 'react-native': '>=0.29' },
 21 silly publish   readme: '## Switch React Native\n<p align="center">\n    <img src ="https://4.bp.blogspot.com/-DSIRFnI5sek/WY1DoD13mzI/AAAAAAAAO88/pAn_ACasiHUHO5Rot57L0KCtZDgkuWXbACLcBGAs/s320/Simulator%2BScreen%2BShot%2BAug%2B11%252C%2B2017%252C%2B11.41.50%2BAM.png" />\n</p>\n\n### Content\n- [Installation](#installation)\n- [Usage example](#usage-example)\n- [Properties](#properties)\n- [Events](#events)\n- [Questions?](#questions)\n\n### Installation\n```bash\nnpm install switch-react-native\n```\n### Usage example\n```javascript\nvar Switch = require(\'switch-react-native\');\n\nvar Application = React.createClass({\n  render: function() {\n    return (\n      <View>\n        <Switch \n          width={widthScreen}\n          activeText={`activeText`}\n          inActiveText={`inActiveText`}\n          onValueChange={(value) => this._onPressSwitch(value)}\n        />\n      </View>\n    );\n  }\n});\n```\n### Properties\n* `width` (Number) - Initial switch state (default: 150),\n* `height` (Number) - Initial switch state (default: 50),\n* `time` (Number) - Initial switch state (default: 200 mms),\n* `value` (Bool) - Initial switch state (default: false),\n* `activeText` (String) - String activeText,\n* `inActiveText` (String) - String inActiveText,\n* `textStyle` (Object) - Style is object,\n* `activeStyle` (Object) - Style is object,\n* `backgroundStyle` (Object) - Style is object,\n\n### Events\n* `onValueChange`: This function is called when the switch is activated.\n\n### License\nMIT License\n\n### Questions?\nFeel free to [create an issue](https://github.com/jundat95/switch-react-native/issues)\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: 'dfa87e3e95b0b1bb1228729319fba0b8a77627e8',
-21 silly publish   _id: 'switch-react-native@1.0.0',
-21 silly publish   _shasum: '59da37d0f21c89e5012d924b0e97b9a340ad094d',
+21 silly publish   gitHead: 'e6cd8ef18b3ffaffff821159d2a50af39d52c159',
+21 silly publish   _id: 'switch-react-native@1.0.1',
+21 silly publish   _shasum: 'f9f3f82be1288f7010626b803dfc4766759ae0e4',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name switch-react-native
@@ -74,29 +74,29 @@
 26 silly mapToRegistry   type: 'tag' }
 27 silly mapToRegistry uri https://registry.npmjs.org/switch-react-native
 28 verbose publish registryBase https://registry.npmjs.org/
-29 silly publish uploading /Users/tinhngo/.npm/switch-react-native/1.0.0/package.tgz
+29 silly publish uploading /Users/tinhngo/.npm/switch-react-native/1.0.1/package.tgz
 30 verbose request uri https://registry.npmjs.org/switch-react-native
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 1:15:24 PM
+32 info attempt registry request try #1 at 1:32:31 PM
 33 verbose request using bearer token for auth
-34 verbose request id ad2e44e55c6f7c34
+34 verbose request id bbb944393931e769
 35 http request PUT https://registry.npmjs.org/switch-react-native
 36 http 403 https://registry.npmjs.org/switch-react-native
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '95',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Fri, 11 Aug 2017 06:15:25 GMT',
+37 verbose headers   date: 'Fri, 11 Aug 2017 06:32:32 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-hkg17924-HKG',
+37 verbose headers   'x-served-by': 'cache-hkg17928-HKG',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1502432124.213438,VS0,VE841',
+37 verbose headers   'x-timer': 'S1502433152.801264,VS0,VE817',
 37 verbose headers   vary: 'Accept-Encoding, Accept' }
 38 verbose request invalidating /Users/tinhngo/.npm/registry.npmjs.org/switch-react-native on PUT
 39 error publish Failed PUT 403
-40 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : switch-react-native
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : switch-react-native
 40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
 40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
 40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
@@ -115,7 +115,7 @@
 46 error node v6.11.1
 47 error npm  v3.10.10
 48 error code E403
-49 error "You cannot publish over the previously published version 1.0.0." : switch-react-native
+49 error "You cannot publish over the previously published version 1.0.1." : switch-react-native
 50 error If you need help, you may report this error at:
 50 error     <https://github.com/npm/npm/issues>
 51 verbose exit [ 1, true ]
