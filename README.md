@@ -16,22 +16,25 @@ npm install switch-react-native
 ```
 ### Usage example
 ```javascript
-var Switch = require('switch-react-native');
+import Switch from 'switch-react-native';
 
-var Application = React.createClass({
-  render: function() {
+class SwitchExample extends Component {
+
+  render() {
     return (
-      <View>
-        <Switch 
+      <View style={styles.container}>
+        <Switch
           width={widthScreen}
-          activeText={`activeText`}
-          inActiveText={`inActiveText`}
-          onValueChange={(value) => this._onPressSwitch(value)}
+          activeText={`PDP`}
+          inActiveText={`PRS`}
+          textStyle={{ fontSize: 14, fontWeight: 'bold' }}
+          onValueChange={(value) => console.log(value) }
         />
       </View>
     );
   }
-});
+
+}
 ```
 ### Properties
 * `width` (Number) - Initial switch state (default: 150),
