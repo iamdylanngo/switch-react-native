@@ -17,13 +17,10 @@ npm install switch-react-native
 ### Usage example
 ```javascript
 import React, { Component } from 'react';
-import {
-  StyleSheet, View, 
-} from 'react-native';
+import { View } from 'react-native';
 import Switch from 'switch-react-native';
 
 class SwitchExample extends Component {
-
   render() {
     return (
       <View>
@@ -31,7 +28,10 @@ class SwitchExample extends Component {
           width={widthScreen}
           activeText={`PDP`}
           inActiveText={`PRS`}
-          textStyle={{ fontSize: 14, fontWeight: 'bold' }}
+          textStyle={{ 
+              fontSize: 14, 
+              fontWeight: 'bold' 
+            }}
           onValueChange={(value) => console.log(value) }
         />
       </View>
