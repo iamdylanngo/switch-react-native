@@ -16,13 +16,17 @@ npm install switch-react-native
 ```
 ### Usage example
 ```javascript
+import React, { Component } from 'react';
+import {
+  StyleSheet, View, 
+} from 'react-native';
 import Switch from 'switch-react-native';
 
 class SwitchExample extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <Switch
           width={widthScreen}
           activeText={`PDP`}
