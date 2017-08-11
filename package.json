@@ -1,6 +1,6 @@
 {
   "name": "switch-react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switch in react native",
   "main": "index.js",
   "scripts": {
