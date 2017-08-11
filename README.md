@@ -1,6 +1,6 @@
 ## Switch React Native
 <p align="center">
-    <img src ="https://4.bp.blogspot.com/-DSIRFnI5sek/WY1DoD13mzI/AAAAAAAAO88/pAn_ACasiHUHO5Rot57L0KCtZDgkuWXbACLcBGAs/s320/Simulator%2BScreen%2BShot%2BAug%2B11%252C%2B2017%252C%2B11.41.50%2BAM.png" />
+    <img src ="https://media.giphy.com/media/3o6vXQecRBUhACEYda/giphy.gif" />
 </p>
 
 ### Content
@@ -25,7 +25,7 @@ class SwitchExample extends Component {
     return (
       <View>
         <Switch
-          width={widthScreen}
+          width={150}
           activeText={`PDP`}
           inActiveText={`PRS`}
           textStyle={{ 
