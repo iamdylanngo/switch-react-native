@@ -1,6 +1,6 @@
 ## Switch React Native
 <p align="center">
-    <img src ="https://media.giphy.com/media/3o6vXQecRBUhACEYda/giphy.gif" />
+    <img src ="https://media.giphy.com/media/l1J3Mu9PuIIl7wADK/giphy.gif" />
 </p>
 
 ### Content
