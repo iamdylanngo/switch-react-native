@@ -28,9 +28,10 @@ class SwitchExample extends Component {
           width={150}
           activeText={`PDP`}
           inActiveText={`PRS`}
-          textStyle={{ 
-              fontSize: 14, 
-              fontWeight: 'bold' 
+          activeTextStyle={{ 
+              fontSize: 14,
+              fontWeight: 'bold', 
+              color: '#000000', 
             }}
           onValueChange={(value) => console.log(value) }
         />
@@ -47,7 +48,8 @@ class SwitchExample extends Component {
 * `value` (Bool) - Initial switch state (default: false),
 * `activeText` (String) - String activeText,
 * `inActiveText` (String) - String inActiveText,
-* `textStyle` (Object) - Style is object,
+* `activeTextStyle` (Object) - Style is object,
+* `inActiveTextStyle` (Object) - Style is object,
 * `activeStyle` (Object) - Style is object,
 * `backgroundStyle` (Object) - Style is object,
 
