@@ -1,6 +1,6 @@
 {
   "name": "switch-react-native",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Switch in react native",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,7 @@
     "react-native",
     "react",
     "switch",
-    "shapes",
-    "android",
-    "ios",
-    "mobile",
-    "switch",
-    "customisable"
+    "switch"
   ],
   "author": "Tinh Ngo <it.tinhngo@gmail.com> (http://www.jundat95.com/)",
   "license": "MIT",

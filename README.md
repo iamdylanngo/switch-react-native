@@ -1,14 +1,18 @@
 ## Switch React Native
+
 <p align="center">
-    <img src ="https://media.giphy.com/media/l1J3Mu9PuIIl7wADK/giphy.gif" />
+    <img src ="https://media.giphy.com/media/EP7FFmBKLhfq3n8pLo/giphy.gif" />
 </p>
 
 ### Content
-- [Installation](#installation)
-- [Usage example](#usage-example)
-- [Properties](#properties)
-- [Events](#events)
-- [Questions?](#questions)
+- [Switch React Native](#switch-react-native)
+  - [Content](#content)
+  - [Installation](#installation)
+  - [Usage example](#usage-example)
+  - [Properties](#properties)
+  - [Events](#events)
+  - [License](#license)
+  - [Questions?](#questions)
 
 ### Installation
 ```bash
@@ -18,27 +22,22 @@ npm install switch-react-native
 ```javascript
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import Switch from 'switch-react-native';
+import { Switch } from 'switch-react-native';
 
 class SwitchExample extends Component {
   render() {
     return (
       <View>
         <Switch
-          width={150}
-          activeText={`PDP`}
-          inActiveText={`PRS`}
-          activeTextStyle={{ 
-              fontSize: 14,
-              fontWeight: 'bold', 
-              color: '#000000', 
-            }}
-          onValueChange={(value) => console.log(value) }
+          height={40}
+          width={300}
+          activeText={`Active Text`}
+          inActiveText={`InActive Text`}
+          onValueChange={(value: any) => console.log(value)}
         />
       </View>
     );
   }
-
 }
 ```
 ### Properties
