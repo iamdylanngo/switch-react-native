@@ -12,7 +12,7 @@ class Switch extends React.Component {
                 easing: react_native_1.Easing.bezier(0.68, -0.55, 0.265, 1.55),
             }).start();
             this.setState({ value: value });
-            console.log(this.state.value);
+            // console.log(this.state.value);
         };
         this._pressButtonLeft = () => {
             this._animateSwitch(true);
